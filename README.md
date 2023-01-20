@@ -16,7 +16,7 @@ SQLite
 
 ## TODO:
 
- [ ] Replace it with Nest
- [ ] Replace SQLite by PostgreSQL
- [ ] Dockerize the Application
- [ ] Implement unit test (Jest)
+ <p> [ ] Replace it with Nest </ p> 
+ <p> [ ] Replace SQLite by PostgreSQL </ p> 
+ <p> [ ] Dockerize the Application </ p> 
+ <p> [ ] Implement unit test (Jest) </ p> 
