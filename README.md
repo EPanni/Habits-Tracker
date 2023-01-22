@@ -6,8 +6,7 @@
 
 ### STACK
 
-React
-React-Native
+React DOM and Native
 Node
 TypeScript
 Prisma
@@ -18,5 +17,5 @@ SQLite
 
  <p> [ ] Replace it with Nest </ p> 
  <p> [ ] Replace SQLite by PostgreSQL </ p> 
- <p> [ ] Dockerize the Application </ p> 
- <p> [ ] Implement unit test (Jest) </ p> 
+ <p> [ ] Dockerize Application </ p> 
+ <p> [ ] Implement unit tests  </ p> 
