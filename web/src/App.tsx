@@ -1,10 +1,5 @@
-import './styles/global.css'
-import { Habit } from "./components/Habit"
+import "./styles/global.css";
 
-function App() {
-  return (
-    <Habit completed={3} />
-  )
+export function App() {
+  return <div></div>;
 }
-
-export default App
