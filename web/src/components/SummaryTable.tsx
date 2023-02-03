@@ -1,10 +1,12 @@
 import { generateDatesFromYearBeginning } from "../utils/generate-dates-from-year-beginning";
 import { HabitDay } from "./HabitDay";
+import { HabitDayEmpty } from "./HabitDayEmpty";
 
 const weekDays = ["S", "M", "T", "W", "T", "F", "S"];
 
 const summaryDates = generateDatesFromYearBeginning();
-console.log(summaryDates);
+const minSummaryDatesSize = 18 * 7; //18 weeks
+const ammountOfDaystoFill = minSummaryDatesSize - summaryDates.length;
 
 export function SummaryTable() {
   return (
@@ -25,6 +27,11 @@ export function SummaryTable() {
         {summaryDates.map((date) => {
           return <HabitDay key={date.toString()} />;
         })}
+
+        {ammountOfDaystoFill > 0 &&
+          Array.from({ length: ammountOfDaystoFill }).map((_, i) => {
+            return <HabitDayEmpty key={i} />;
+          })}
       </div>
     </div>
   );
