@@ -9,8 +9,8 @@ import {
 } from "@expo-google-fonts/inter";
 
 import { Loading } from "./src/components/Loading";
-import { Routes } from "./src/routes";
 import React from "react";
+import { Routes } from "./src/routes/index";
 
 export default function App() {
   const [fontsLoaded] = useFonts({

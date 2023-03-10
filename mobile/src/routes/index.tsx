@@ -5,7 +5,7 @@ import React from "react";
 
 export function Routes() {
   return (
-    <View className="flex-a bg-back">
+    <View className="flex-1 bg-background">
       <NavigationContainer>
         <AppRoutes />
       </NavigationContainer>
